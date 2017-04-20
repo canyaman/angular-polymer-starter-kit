@@ -1,0 +1,39 @@
+{
+  "name": "angular-polymer-starter-kit",
+  "description": "angular4 and polymer2 starter project",
+  "main": "index.html",
+  "authors": [
+    "Can Yaman <can@yaman.me>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular4",
+    "polymer2",
+    "webcomponent",
+    "starter"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "app-layout": "PolymerElements/app-layout#2.0-preview",
+    "iron-list": "PolymerElements/iron-list#2.0-preview",
+    "iron-icons": "PolymerElements/iron-icons#2.0-preview",
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg#2.0-preview",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#2.0-preview",
+    "iron-pages": "PolymerElements/iron-pages#2.0-preview",
+    "iron-selector": "PolymerElements/iron-selector#2.0-preview",
+    "paper-icon-button": "PolymerElements/paper-icon-button#2.0-preview",
+    "paper-item": "PolymerElements/paper-item#2.0-preview",
+    "paper-styles": "PolymerElements/paper-styles#2.0-preview",
+    "paper-toggle-button": "PolymerElements/paper-toggle-button#2.0-preview",
+    "paper-button": "PolymerElements/paper-button#2.0-preview",
+    "paper-tabs": "PolymerElements/paper-tabs#2.0-preview",
+    "polymer": "Polymer/polymer#^2.0.0-rc.7"
+  }
+}

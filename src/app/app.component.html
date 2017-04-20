@@ -1,3 +1,23 @@
-<h1>
-  {{title}}
-</h1>
+<app-drawer-layout fullbleed>
+  <!-- Drawer content -->
+  <app-drawer id="drawer" slot="drawer">
+    <app-toolbar>Menu</app-toolbar>
+      <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
+          <a routerLink="/view1" routerLinkActive="iron-selected">View One</a>
+          <a routerLink="/view2" routerLinkActive="iron-selected">View Two</a>
+          <a routerLink="/view3" routerLinkActive="iron-selected">View Three</a>
+      </iron-selector>
+  </app-drawer>
+
+  <!-- Main content -->
+  <app-header-layout has-scrolling-region>
+
+    <app-header slot="header" condenses reveals effects="waterfall">
+      <app-toolbar>
+        <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
+        <div main-title>{{title}}</div>
+      </app-toolbar>
+    </app-header>
+   <router-outlet></router-outlet>
+  </app-header-layout>
+</app-drawer-layout>
